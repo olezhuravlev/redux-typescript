@@ -1,3 +1,25 @@
+
+---
+
+````bash
+$ npx create-react-app redux-typescript --template redux-typescript axios
+$ npm @types/react-redux ???
+
+$ mkdir src/store/reducers -p
+$ touch src/store/reducers/UserSlice.ts
+$ touch src/store/reducers/ActionCreators.ts
+$ touch src/store/store.ts          
+
+$ mkdir src/hooks 
+$ touch src/hooks/redux.ts
+
+$ mkdir src/models
+$ touch src/models/IUser.ts
+
+````
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
