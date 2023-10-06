@@ -16,6 +16,14 @@ $ touch src/hooks/redux.ts
 $ mkdir src/models
 $ touch src/models/IUser.ts
 
+$ mkdir src/services
+$ touch src/services/PostService.ts
+
+$ mkdir src/components
+$ touch src/components/PostContainer.tsx
+$ touch src/models/IPost.ts
+$ touch src/components/PostItem.tsx
+
 ````
 
 ---
