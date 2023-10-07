@@ -4,14 +4,14 @@ import {PostItem} from "./PostItem";
 
 const PostContainer = () => {
 
-    const {data: posts, error, isLoading} = postAPI.useFetchAllPostsQuery(5)
+    const {data: posts, error, isLoading} = postAPI.useFetchAllPostsQuery(100)
 
     return (
         <div>
             <div className="post-list-2">
                 {isLoading && <div>Is loading posts...</div>}
                 {error && <div>Post fetch error!</div>}
-                {posts && posts.map(post => <PostItem key={post.id} post={post}/>)}
+                {/*{posts && posts.map(post => <PostItem key={post.id} post={post}/>)}*/}
             </div>
         </div>
     );

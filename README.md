@@ -24,6 +24,11 @@ $ touch src/components/PostContainer.tsx
 $ touch src/models/IPost.ts
 $ touch src/components/PostItem.tsx
 
+$ sudo npm i -g json-server
+$ touch db.json
+$ json-server --watch db.json --port 5000
+
+
 ````
 
 ---

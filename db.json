@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "body": "Post body 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "body": "Post body 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "body": "Post body 3"
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "body": "Post body 4"
+    },
+    {
+      "id": 5,
+      "title": "Post 5",
+      "body": "Post body 5"
+    },
+    {
+      "id": 6,
+      "title": "Post 6",
+      "body": "Post body 6"
+    },
+    {
+      "id": 7,
+      "title": "Post 7",
+      "body": "Post body 7"
+    },
+    {
+      "id": 8,
+      "title": "Post 8",
+      "body": "Post body 8"
+    },
+    {
+      "id": 9,
+      "title": "Post 9",
+      "body": "Post body 9"
+    },
+    {
+      "id": 10,
+      "title": "Post 10",
+      "body": "Post body 10"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Comment 1",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "title": "Profile 1",
+    "body": "Profile body 1"
+  }
+}
